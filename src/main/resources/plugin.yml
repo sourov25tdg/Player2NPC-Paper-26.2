@@ -1,0 +1,21 @@
+name: Player2NPC
+version: 0.1.0-26.2
+author: DK sourov
+description: Player2NPC-style companion system for Paper 26.2
+main: com.dksourov.player2npc.Player2NPCPlugin
+api-version: '26.2'
+
+commands:
+  p2npc:
+    description: Player2NPC companion commands
+    usage: /p2npc <create|remove|list|follow|stop|waypoint|memory|task|telegram|reload>
+    permission: player2npc.use
+
+permissions:
+  player2npc.use:
+    description: Allows use of Player2NPC commands
+    default: true
+
+  player2npc.admin:
+    description: Allows administrative Player2NPC commands
+    default: op
