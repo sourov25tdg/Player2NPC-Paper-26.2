@@ -1,0 +1,17 @@
+name: Player2NPC
+version: 0.1.0
+main: com.goodbird.player2npc.Player2NPCPlugin
+api-version: '26.2'
+author: GoodBird
+description: Player2NPC companion plugin for Paper 26.2
+
+commands:
+  p2npc:
+    description: Manage Player2NPC companions
+    usage: /p2npc <create|list|follow|stop|remove|task|waypoint|memory|telegram|reload>
+    permission: player2npc.use
+
+permissions:
+  player2npc.use:
+    description: Allows use of Player2NPC commands
+    default: op
