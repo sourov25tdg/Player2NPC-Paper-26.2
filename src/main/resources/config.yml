@@ -1,0 +1,36 @@
+telegram:
+  enabled: false
+  bot-token: ""
+
+  # Authorized Telegram chat IDs
+  allowed-chat-ids:
+    - "8751002531"
+
+# NPC settings
+npc:
+  follow-distance: 3.0
+  follow-teleport-distance: 12.0
+
+# Data saving
+storage:
+  save-interval-seconds: 30
+
+# AI
+ai:
+  enabled: true
+
+# Companion tasks
+tasks:
+  combat: true
+  mining: true
+  farming: true
+  crafting: true
+  smelting: true
+
+# Waypoints
+waypoints:
+  enabled: true
+
+# Long-term memory
+memory:
+  enabled: true
